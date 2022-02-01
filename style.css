@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.primary {
+    background-color: #1f2937;
+}
+
+.secondary {
+    background-color: white;
+}
+
+.tertiary {
+    background-color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+  
+}
+
+.info {
+    display: flex;
+    
+}
+
+.quote {
+    display: flex;
+}
+
+.cta {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+}
