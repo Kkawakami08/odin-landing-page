@@ -1,18 +1,27 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .primary {
     background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.primary p {
+    color: #e5e7eb;
 }
 
 .secondary {
     background-color: white;
+    color: #1f2937;
 }
 
 .tertiary {
     background-color: #e5e7eb;
+    color: #1f2937;
 }
 
 .header {
@@ -27,6 +36,25 @@ body {
 
 .quote {
     display: flex;
+    flex-direction: column;
+    padding: 150px 850px;
+    
+}
+
+.quote h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.quote p {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-self: flex-end;
+    margin: 0;
 }
 
 .cta {
