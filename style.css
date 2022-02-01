@@ -149,7 +149,9 @@ header {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 150px 850px;
+    padding: 150px 600px;
+    align-items: center;
+    
     
 }
 
